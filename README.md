@@ -1,56 +1,73 @@
-# Getting Started with Project
+# Website Design Collection
 
-This project is built using standard HTML and CSS.
+This project is a collection of website templates and mini-projects, each demonstrating different web design concepts and layouts. The collection includes websites for various domains such as Classifieds, Computers, Dell Laptops, Dynamic Applications, Florists, Gaming Laptops, Headphones, Honda, Ice Cream, Laptop Stores, Perfume, Real Estate, Repair Services, Bicycles, Smart Homes, Tourism, Toyota, Travel, and Vietnamese Cuisine.
 
-## Available Commands
+Each subfolder contains a self-contained website with HTML, CSS, JavaScript, and assets (images, fonts) to showcase a specific theme or business type.
 
-In this project, you can run:
+## Prerequisites
 
-### `Open index.html`
+- A modern web browser (Chrome, Firefox, Edge, Safari, etc.)
+- (Optional) A code editor like VS Code, Sublime Text, or Atom for easier code navigation
 
-Launch the application in your browser.\
-You can open the `index.html` file directly in any web browser like Chrome, Firefox, or Edge.
+## Installation
 
-### `Live Server` (Optional)
+1. **Clone the repository** (if not already downloaded):
+   ```sh
+   git clone <repository-url>
+   cd Website-Design-main
+   ```
+2. **No build step is required.** All websites are static and can be opened directly in your browser.
 
-If you're using VS Code, you can install the **Live Server** extension.\
-Right-click on `index.html` and choose **"Open with Live Server"** to enable live reload on save.
+## How to Run
 
-### `Custom CSS Changes`
+Open the `index.html` file in the desired website folder using your web browser. For example, to view the Ice Cream website:
 
-You can modify the styles in `style.css`.\
-Changes will reflect immediately when the HTML is reloaded in the browser.
+```sh
+cd IceCream_Website
+open index.html
+```
+Or, right-click `index.html` and select "Open with" → your browser.
 
-### `Assets Folder`
+Repeat similar steps for other website folders (e.g., Florist_Website, Real_Estate_Website, etc.).
 
-If your project includes images, fonts, or other resources, they should be placed in the `assets/` directory.
+## Project Structure
+
+```
+Website-Design-main/
+├── Classifieds_Platform_Website/
+├── Computer_Website/
+├── Dell_Laptop_Website/
+├── Dynamic_Application_Website/
+├── Florist_Website/
+├── Gaming_Laptop_Website/
+├── Headphones_Website/
+├── Honda_Head_Website/
+├── IceCream_Website/
+├── Laptop_Store_Website/
+├── Perfume_Website/
+├── Real_Estate_Website/
+├── Repair_Website/
+├── SLMRO_Bicycle_Website/
+├── Smart_Home_Website/
+├── Tourist_Website/
+├── Toyota_Website/
+├── Travel_Maldives_Website/
+├── Travel_Website/
+├── Vietnamese_Cuisine_Website/
+├── README.md
+└── ... (images, CSS, JS, and asset folders in each website)
+```
+
+- Each main folder contains:
+  - `index.html`: The main HTML file for the website (if present).
+  - `css/` or `CSS/`: Stylesheets for the website.
+  - `js/`: JavaScript files for interactivity.
+  - `images/`: Images and graphics used in the website.
+  - `fonts/`: (If present) Custom fonts for the website.
 
 ## Learn More
 
-You can learn more in the following documentation:
-
 - [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
-- [W3Schools CSS Tutorial](https://www.w3schools.com/css/)
-
-### Responsive Design
-
-To build responsive layouts, consider using:
-
-- [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
-
-### Deployment
-
-You can deploy your project easily with:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-
-### Troubleshooting
-
-- Ensure all file paths (e.g., images, CSS) are correct.
-- Use browser developer tools to inspect layout and debug CSS issues.
-- Check the console for any loading or syntax errors.
+- [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- For questions or contributions, please open an issue or pull request.
